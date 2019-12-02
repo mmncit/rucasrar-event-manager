@@ -1,24 +1,23 @@
-# README
+# dashboard
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple rails app to view the recent posts
 
-Things you may want to cover:
+## Requirements:
 
-* Ruby version
+- Ruby ~> 2.5.7
+- Rails ~> 5.2.4
+- Redis ~> 4.0.9
 
-* System dependencies
+## Features:
 
-* Configuration
+* Recent Posts service
+* Structured cache with filtering and sorting
 
-* Database creation
+## References:
 
-* Database initialization
+- [tutorialspoint/redis-lists](https://www.tutorialspoint.com/redis/redis_lists.htm)
+- [monterail/rails-event-sourcing-example](https://github.com/monterail/rails-event-sourcing-example)
 
-* How to run the test suite
+## License:
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This repository is released under the [MIT License](http://www.opensource.org/licenses/MIT).
